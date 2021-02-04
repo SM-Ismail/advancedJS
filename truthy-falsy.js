@@ -1,19 +1,19 @@
 // conditions false- true
 
-/////falsy
-// false
-// 0
-// ""
-// null
-// undefined
-// NaN
+///falsy
+false
+0
+""
+null
+undefined
+NaN
 
-/////truthy
-// true
-// '0'
-// " "
-// []
-// {}
+///truthy
+true
+'0'
+" "
+[]
+{}
 
 let nname = 0;
 if(nname || nname == 0){
