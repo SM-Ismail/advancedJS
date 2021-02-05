@@ -5,13 +5,13 @@ const students = [
     {id:42, name: 'Dipjol'}
 
 ];
-//only extract the name properties
+only extract the name properties
 
-// const names = [];
-// for (let i = 0; i<students.length; i++){
-//     names.push(students[i].name);
-// }
-// console.log(names);
+const names = [];
+for (let i = 0; i<students.length; i++){
+    names.push(students[i].name);
+}
+console.log(names);
 
 const namesByMap = students.map(x => x.name);
 console.log(namesByMap);

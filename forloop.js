@@ -6,3 +6,5 @@ for (let i = 0; i < numbers.length; i++){
     sqnumbers.push(result); 
 }
 console.log(sqnumbers);
+//using map to write for loop smartly
+ 
